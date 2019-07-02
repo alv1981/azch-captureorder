@@ -1,6 +1,6 @@
 variables:
   
-  - group: captureorder-variables # Variable Group containing  'teamName', 'mongoHost', 'mongoUser' and the secret 'mongoPassword'
+  - group: MongoDB # Variable Group containing  'teamName', 'mongoHost', 'mongoUser' and the secret 'mongoPassword'
 
   - name: dockerRegistryServiceConnection
     value: 'containerRegistryConnection' # replace with container registry service connection name established during pipeline creation
